@@ -3,6 +3,9 @@
 /colour.css
 /drawing.py
 /gravity.py
-/pepe.txt
 /reflection.py
 /smooth_line.py
+
+# We don't want text files and css files cuz I used the css for the vscode color picker
+*.txt
+*.css
