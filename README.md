@@ -22,10 +22,12 @@ Simply run the chaos_balls.py file either by double clicking it or
 
 ```py chaos_balls.py```
 
-## features
+## Features
 
 To Add/Remove balls and manipulate their properties, i.e velocity, position, etc you can do so by opening chaos_balls.py in a text editor and follow the comments in line 153 as a guide.
 
-## controls
+## Controls
 
--press p to pause
+- press p to pause
+
+That's about it!
