@@ -1,11 +1,11 @@
 from pygame.gfxdraw import circle
-from reflection import arrow, yellow
+# from reflection import arrow, yellow
 from drawing import aacirlce
 import pygame
 import os
 import time as t
 from math import acos, atan2, sin, cos, sqrt, pi
-import math
+# import math
 from test import dot, simul
 
 # Game presets
