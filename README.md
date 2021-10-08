@@ -39,7 +39,7 @@ Now the arguments that go in the class Balls are seen in the template below:
  - color: color of the ball. color is a tuple of the format (r,g,b)
  - radius: radius of the ball -> float or int
  - thickness: set to 0 if you want a solid ball. If set to a non-zero value, then ball will be drawn as a ring and the thickness controls how thick the outline is. -> float or int
- - x & y coordinates: The position of the center of the ball. Note the top left corner is the origin (0,0) and y increases (positive) going down
+ - x & y coordinates: The position of the center of the ball. Note the top left corner of the window is the origin (0,0) and y increases (positive) going down
  - collision sound file: the audio file that's played during collisions with the walls of the ring. Feel free to use your own audio files, make sure to sure to convert them to .wav and add them to the audio folder.
 
 To add a red ball at the position 200, 300. 
