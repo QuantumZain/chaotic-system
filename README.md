@@ -1,23 +1,16 @@
 # chaos-balls
 
-A Simulation of balls bouncing in a circle, inspired by a similar Numberphile video on chaotic systems. The simulation demonstates how chaos and complexity arises from something as simple as balls bouncing in a ring. Written in python3 and pygame.
-
-The numberphile video:
-<https://youtu.be/6z4qRhpBIyA>
+A Simulation of balls bouncing in a circle, inspired by a similar [Numberphile video](https://youtu.be/6z4qRhpBIyA) on chaotic systems. The simulation demonstates how chaos and complexity arises from something as simple as balls bouncing in a ring. Written in python3 and pygame.
 
 ## Requirements
 
-- python 3.9
+- [python 3.9](https://www.python.org/downloads/release/python-397/)
 
 Using pip install these packages:
 
-- pygame.
+- pygame. preferably version 2.0.1
 
-```pip install pygame```
-
-- numpy (not sure but get it just in case)
-
-```pip install numpy```
+```pip install pygame -V 2.0.1```
 
 ## Run
 
@@ -27,7 +20,7 @@ Simply run the chaos_balls.py file either by double clicking it or
 
 ## Features
 
-To Add/Remove balls and manipulate their properties, i.e velocity, position, etc you can do so by opening chaos_balls.py in a text editor and follow the instructions around line 150.
+To Add/Remove balls and manipulate their properties, i.e velocity, position, etc you can do so by opening chaos_balls.py in a text editor and follow the instructions around line 150. Will make this more user friendly in the future but for now just mess around with the source code.
 
 ### Example
 
