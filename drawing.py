@@ -17,11 +17,6 @@ x, y = 1360 - width, 40
 os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (x, y)
 
 
-pygame.init()
-screen = pygame.display.set_mode((width, height))
-clock = pygame.time.Clock()
-pygame.display.set_caption("draw arrows")
-# font = pygame.font.Font('freesansbold.ttf', 15)
 
 whitest      = (204, 234, 234)
 white        = (160, 160, 160)
@@ -136,6 +131,11 @@ left_hold = False
 # points = [(0,0), (0,1)]
 
 if __name__ == "__main__":
+    pygame.init()
+    screen = pygame.display.set_mode((width, height))
+    clock = pygame.time.Clock()
+    pygame.display.set_caption("draw arrows")
+    # font = pygame.font.Font('freesansbold.ttf', 15)
     while True:
         
         screen.fill(grey)
