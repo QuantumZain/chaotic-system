@@ -20,7 +20,7 @@ os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (x, y)
 pygame.init()
 screen = pygame.display.set_mode((width, height))
 clock = pygame.time.Clock()
-# pygame.display.set_caption("Bouncing balls")
+pygame.display.set_caption("draw arrows")
 # font = pygame.font.Font('freesansbold.ttf', 15)
 
 whitest      = (204, 234, 234)
