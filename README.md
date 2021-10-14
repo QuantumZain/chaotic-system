@@ -47,6 +47,6 @@ y coordinate is set to ```height//2 +10``` which is midway and 10 pixels down.
 
 ## Controls
 
-- press P to pause
+- Spacebar to pause
 
 That's about it!
