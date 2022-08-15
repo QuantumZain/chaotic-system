@@ -151,12 +151,12 @@ def draw_cricle(color, radius, thicc, posx, posy):
 
 
 # redball   = Balls("red ball", red, 8, 0, width//2-bigr+20, height//2-59, "bm.wav")
-redball   = Balls("red ball", golden, 8, 0, width//2-bigr+20, height//2-59, "golf_ball.wav")
-greenball = Balls("green ball", algeablue, 8, 0, width//2+bigr-20, height//2-50, "golf_ball.wav")
-yellowball = Balls("green ball", magenta2, 8, 0, width//3, height//2,"bm.wav")
-blueball = Balls("green ball", blue, 8, 0, width*2//3+5, height//2, "trm.wav")
+redball   = Balls("red ball", golden, 8, 0, width//2-bigr+10, height//2, "golf_ball.wav")
+redball.vely = -5
+# greenball = Balls("green ball", algeablue, 8, 0, width//2+bigr-20, height//2-50, "golf_ball.wav")
+# yellowball = Balls("green ball", magenta2, 8, 0, width//3, height//2,"trm.wav")
+# blueball = Balls("green ball", blue, 8, 0, width*2//3+5, height//2, "trm.wav")
 # greenball = Balls("green ball", green, 12, 0, width//2+70, height//2-60)
-
 
 
 
@@ -191,7 +191,7 @@ while True:
     aacirlce(bigr, width//2, height//2, whitest, 1)
 
     for ball in Balls.balls:
-        if len(redball.track)> 2 and Balls.trail:
+        if len(ball.track)> 2 and Balls.trail:
             pygame.draw.aalines(screen, ball.color, False, ball.track, 2)
     for ball in Balls.balls:
         ball.drawball()
