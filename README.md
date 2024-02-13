@@ -10,13 +10,16 @@ Install these packages using pip:
 
 - pygame. preferably version 2.0.1
 
-```pip install pygame -V 2.0.1```
+```
+pip install pygame -V 2.0.1
+```
 
 ## Run
 
 Simply run the chaos_balls.py file either by double clicking it or running the following command in the terminal
-
-```py chaos_balls.py```
+~~~
+py chaos_balls.py
+~~~
 
 ## Features
 
